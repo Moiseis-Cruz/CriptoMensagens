@@ -22,14 +22,12 @@ main {
 }
 
 .container {
-    /* background-color: brown; */
     display: flex;
     width: 75%;
     height: 100%;
 }
 
 .img__container {
-    /* background-color: red; */
     width: 120px;
     display: flex;
     justify-content: center;
@@ -41,7 +39,6 @@ main {
 }
 
 .content {
-    /* background-color: cadetblue; */
     margin-top: 80px;
     display: flex;
     flex-direction: column;
