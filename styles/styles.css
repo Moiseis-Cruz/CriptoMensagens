@@ -57,6 +57,7 @@ textarea {
     border: none;
     line-height: 48px;
     font-family: "Inter", sans-serif;
+    font-weight: 400;
     background-color: #F3F5FC;
 }
 
@@ -75,6 +76,18 @@ textarea::placeholder {
     flex-direction: column;
     justify-content: center;
     color: #0A3871;
+}
+
+.content__aviso {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.mensagem__alerta {
+    font-size: 12px;
+    font-weight: 400;
+    color: #495057;
 }
 
  /* 
