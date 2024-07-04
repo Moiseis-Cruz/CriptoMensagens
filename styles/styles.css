@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
 }
 
 main {
@@ -10,19 +16,19 @@ main {
     justify-content: center;
     align-items: center;
     gap: 80px;
-    min-height: 100vh;
     padding: 40px;
+    height: 100vh;
 }
 
 .container {
     background-color: brown;
     display: flex;
     width: 75%;
-    height: 100vh;
+    height: 100%;
 }
 
 .img__container {
-    background-color: red;
+    /* background-color: red; */
     width: 120px;
     display: flex;
     justify-content: center;
@@ -34,7 +40,7 @@ main {
 }
 
 .content {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -49,7 +55,7 @@ textarea {
 }
 
 .output {
-    background-color: darkgray;
+    background-color: brown;
     width: 25%;
     height: 100%;
 }
