@@ -90,6 +90,15 @@ textarea::placeholder {
     color: #495057;
 }
 
+.btn {
+    width: 328px;
+    padding: 24px;
+    border-radius: 24px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
  /* 
  <uniquifier>: Use a unique and descriptive class name
  <weight>: Use a value from 100 to 900
