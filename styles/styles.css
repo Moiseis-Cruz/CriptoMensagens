@@ -94,6 +94,15 @@ textarea::placeholder {
     margin-top: 16px;
     font-size: 16px;
     font-weight: 400;
+    color: #0A3871;
+    cursor: pointer;
+    border: 1px solid #0A3871;
+}
+
+.btn:first-of-type {
+    background-color: #0A3871;
+    color: #ffffff;
+    margin-right: 24px;
 }
 
  /* 
