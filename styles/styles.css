@@ -1,9 +1,35 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 main {
     background-color: blanchedalmond;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: brown;
+    display: flex;
+    width: 75%;
+    height: 100vh;
+}
+
+.img__logo {
+    width: 31px;
+    height: 48px;
+}
+
+.content {
+    background-color: cadetblue;
+    margin-top: 80px;
+}
+
+.output {
+    background-color: darkgray;
+    width: 25%;
 }
