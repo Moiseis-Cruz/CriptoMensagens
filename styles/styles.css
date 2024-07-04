@@ -60,6 +60,10 @@ textarea {
     background-color: #F3F5FC;
 }
 
+textarea::placeholder {
+    color: #0A3871;
+}
+
 .output {
     background-color: #ffffff;
     width: 25%;
