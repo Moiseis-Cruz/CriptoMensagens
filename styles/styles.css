@@ -20,6 +20,13 @@ main {
     height: 100vh;
 }
 
+.img__container {
+    background-color: red;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+
 .img__logo {
     width: 31px;
     height: 48px;
