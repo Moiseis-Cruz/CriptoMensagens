@@ -105,6 +105,13 @@ textarea::placeholder {
     margin-right: 24px;
 }
 
+.primeira__mensagem {
+    color: #343a40;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 32px;
+}
+
  /* 
  <uniquifier>: Use a unique and descriptive class name
  <weight>: Use a value from 100 to 900
