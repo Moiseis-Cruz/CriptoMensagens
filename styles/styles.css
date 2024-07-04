@@ -9,6 +9,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 80px;
     min-height: 100vh;
     padding: 40px;
 }
@@ -35,9 +36,20 @@ main {
 .content {
     background-color: cadetblue;
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+textarea {
+    font-size: 32px;
+    width: 100%;
+    height: 50%;
 }
 
 .output {
     background-color: darkgray;
     width: 25%;
+    height: 100%;
 }
