@@ -6,6 +6,8 @@ let btnDescriptografar = document.getElementById("btn-descriptografar");
 
 let output = document.getElementById("output");
 
+let result = "";
+
 
 
 function criptografarText(text) {
@@ -21,7 +23,15 @@ bntCriptografar.addEventListener("click", () => {
 
     let criptografado = criptografarText(textValue);
 
-    output.innerHTML = criptografado;
+    output.style.justifyContent = "space-between";
+
+    result = 
+            `
+                <p class="mensagem">${criptografado}</p>
+                <button class="btn-copiar">copiar</button>
+            `;
+
+    output.innerHTML = result;
 });
 
 
