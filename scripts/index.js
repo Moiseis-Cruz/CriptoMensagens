@@ -13,13 +13,13 @@ function criptografarText(text) {
                 .replace(/i/g, "imes")
                 .replace(/a/g, "ai")
                 .replace(/o/g, "ober")
-                .replace(/u/g, "ufat")
+                .replace(/u/g, "ufat");
 };
 
 bntCriptografar.addEventListener("click", () => {
     let textValue = text.value;
 
-    let criptografado = criptografarText(textValue)
+    let criptografado = criptografarText(textValue);
 
     output.innerHTML = criptografado;
 });
@@ -30,7 +30,7 @@ function descriptografarText(text) {
                 .replace(/imes/g, "i")
                 .replace(/ai/g, "a")
                 .replace(/ober/g, "o")
-                .replace(/ufat/g, "u")
+                .replace(/ufat/g, "u");
 };
 
 btnDescriptografar.addEventListener("click", () => {
@@ -39,4 +39,4 @@ btnDescriptografar.addEventListener("click", () => {
     let descriptografar = descriptografarText(textValue);
 
     output.innerHTML = descriptografar;
-})
+});
