@@ -26,10 +26,10 @@ bntCriptografar.addEventListener("click", () => {
     output.style.justifyContent = "space-between";
 
     result = 
-            `
-                <p class="mensagem">${criptografado}</p>
-                <button class="btn-copiar">copiar</button>
-            `;
+        `
+            <p class="mensagem">${criptografado}</p>
+            <button class="btn-copiar">copiar</button>
+        `;
 
     output.innerHTML = result;
 });
@@ -48,5 +48,13 @@ btnDescriptografar.addEventListener("click", () => {
 
     let descriptografar = descriptografarText(textValue);
 
-    output.innerHTML = descriptografar;
+    output.style.justifyContent = "space-between";
+
+    result = 
+        `
+            <p class="mensagem">${descriptografar}</p>
+            <button class="btn-copiar">copiar</button>
+        `;
+
+    output.innerHTML = result;
 });
