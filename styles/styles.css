@@ -56,10 +56,15 @@ textarea {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     background-color: #F3F5FC;
+    color: #0A3871;
 }
 
 textarea::placeholder {
     color: #0A3871;
+}
+
+textarea:active {
+    border: none;
 }
 
 .output {
