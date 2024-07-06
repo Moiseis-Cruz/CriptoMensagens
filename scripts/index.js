@@ -28,11 +28,13 @@ function descriptografarText(text) {
 
 function filtrarTexto(input) {
     input.value = input.value.replace(/[^a-z\s]/g, '');
-}
+};
+
+
 
 text.addEventListener("input", () => {
     filtrarTexto(text);
-})
+});
 
 bntCriptografar.addEventListener("click", () => {
     let textValue = text.value;
