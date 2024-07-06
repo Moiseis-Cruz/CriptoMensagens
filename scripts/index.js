@@ -18,6 +18,14 @@ function criptografarText(text) {
                 .replace(/u/g, "ufat");
 };
 
+function descriptografarText(text) {
+    return text.replace(/enter/g, "e")
+                .replace(/imes/g, "i")
+                .replace(/ai/g, "a")
+                .replace(/ober/g, "o")
+                .replace(/ufat/g, "u");
+};
+
 function filtrarTexto(input) {
     input.value = input.value.replace(/[^a-z\s]/g, '');
 }
@@ -41,15 +49,6 @@ bntCriptografar.addEventListener("click", () => {
 
     output.innerHTML = result;
 });
-
-
-function descriptografarText(text) {
-    return text.replace(/enter/g, "e")
-                .replace(/imes/g, "i")
-                .replace(/ai/g, "a")
-                .replace(/ober/g, "o")
-                .replace(/ufat/g, "u");
-};
 
 btnDescriptografar.addEventListener("click", () => {
     let textValue = text.value;
