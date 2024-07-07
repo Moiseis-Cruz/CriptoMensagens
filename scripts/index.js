@@ -30,7 +30,20 @@ function filtrarTexto(input) {
     input.value = input.value.replace(/[^a-z\s]/g, '');
 };
 
+function addCopyButtonEvent() {
+    const copyButton = document.querySelector(".btn-copiar");
 
+    if(copyButton){
+        copyButton.addEventListener("click", () => {
+            const mensagem = document.querySelector(".mensagem");
+            if(mensagem){
+                navigator.clipboard.writeText(mensagem.textContent).then(() => {
+                    mensagem.textContent = "";
+                })
+            }
+        })
+    }
+}
 
 text.addEventListener("input", () => {
     filtrarTexto(text);
@@ -50,6 +63,8 @@ bntCriptografar.addEventListener("click", () => {
         `;
 
     output.innerHTML = result;
+
+    addCopyButtonEvent();
 });
 
 btnDescriptografar.addEventListener("click", () => {
@@ -66,4 +81,6 @@ btnDescriptografar.addEventListener("click", () => {
         `;
 
     output.innerHTML = result;
+
+    addCopyButtonEvent();
 });
