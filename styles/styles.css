@@ -18,7 +18,7 @@ main {
     align-items: center;
     gap: 80px;
     padding: 40px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
