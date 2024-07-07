@@ -38,7 +38,7 @@ function addCopyButtonEvent() {
             const mensagem = document.querySelector(".mensagem");
             if(mensagem){
                 navigator.clipboard.writeText(mensagem.textContent).then(() => {
-                    mensagem.textContent = "";
+                    mensagem.textContent = "Nenhuma mensagem";
                 });
             };
         });
