@@ -54,6 +54,8 @@ bntCriptografar.addEventListener("click", () => {
 
     let criptografado = criptografarText(textValue);
 
+    limparCampoTexto();
+
     output.style.justifyContent = "space-between";
 
     result = 
@@ -70,6 +72,8 @@ btnDescriptografar.addEventListener("click", () => {
 
     let descriptografar = descriptografarText(textValue);
 
+    limparCampoTexto();
+
     output.style.justifyContent = "space-between";
 
     result = 
@@ -85,4 +89,8 @@ function actionEvent() {
     output.innerHTML = result;
 
     addCopyButtonEvent();
+};
+
+function limparCampoTexto() {
+    text.value = "";
 }
