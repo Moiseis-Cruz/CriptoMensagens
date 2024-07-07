@@ -42,3 +42,13 @@
         margin-top: 32px;
     }
 }
+
+@media (max-width: 425px) {
+    main {
+        padding: 24px 16px 40px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
