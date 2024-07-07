@@ -6,16 +6,6 @@
     --cor-terciaria: #F3F5FC;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-button {
-    cursor: pointer;
-}
-
 body {
     min-height: 100vh;
     font-family: "Inter", sans-serif;
