@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+button {
+    cursor: pointer;
+}
+
 body {
     min-height: 100vh;
     font-family: "Inter", sans-serif;
@@ -97,7 +101,6 @@ textarea::placeholder {
     font-size: 16px;
     font-weight: 400;
     color: #0A3871;
-    cursor: pointer;
     border: 1px solid #0A3871;
 }
 
