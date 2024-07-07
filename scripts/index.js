@@ -39,11 +39,11 @@ function addCopyButtonEvent() {
             if(mensagem){
                 navigator.clipboard.writeText(mensagem.textContent).then(() => {
                     mensagem.textContent = "";
-                })
-            }
-        })
-    }
-}
+                });
+            };
+        });
+    };
+};
 
 text.addEventListener("input", () => {
     filtrarTexto(text);
