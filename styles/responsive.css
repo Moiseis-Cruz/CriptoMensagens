@@ -10,6 +10,10 @@
         flex-direction: column;
     }
 
+    .img__container {
+        width: 0;
+    }
+
     .content {
         margin-top: 116px;
     }
@@ -24,6 +28,10 @@
 
     .output__imagem {
         display: none;
+    }
+
+    .primeira__mensagem {
+        margin-top: 0;
     }
 
     .mensagem {
