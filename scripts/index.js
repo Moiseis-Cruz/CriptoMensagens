@@ -64,7 +64,7 @@ bntCriptografar.addEventListener("click", () => {
             <button class="btn-copiar">copiar</button>
         `;
 
-    actionEvent();
+    gerarMensagem();
 });
 
 btnDescriptografar.addEventListener("click", () => {
@@ -82,10 +82,10 @@ btnDescriptografar.addEventListener("click", () => {
             <button class="btn-copiar">copiar</button>
         `;
 
-    actionEvent();
+    gerarMensagem();
 });
 
-function actionEvent() {
+function gerarMensagem() {
     output.innerHTML = result;
 
     addCopyButtonEvent();
