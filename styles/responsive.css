@@ -9,9 +9,13 @@
         width: 100%;
         flex-direction: column;
     }
-
+/* 
     .img__container {
         width: 0;
+    } */
+
+    .img__logo {
+        margin: 0;
     }
 
     .content {
