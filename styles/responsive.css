@@ -9,10 +9,6 @@
         width: 100%;
         flex-direction: column;
     }
-/* 
-    .img__container {
-        width: 0;
-    } */
 
     .img__logo {
         margin: 0;
@@ -48,9 +44,6 @@
 }
 
 @media (max-width: 425px) {
-    /* main {
-        padding: 24px 16px 40px;
-    } */
 
     .btn {
         width: 100%;
