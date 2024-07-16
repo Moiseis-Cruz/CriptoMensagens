@@ -27,15 +27,16 @@ main {
     height: 100%;
 }
 
-.img__container {
+/* .img__container {
     width: 120px;
     display: flex;
     justify-content: center;
-}
+} */
 
 .img__logo {
     width: 31px;
     height: 48px;
+    margin: 0 44px;
 }
 
 .content {
