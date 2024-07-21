@@ -30,6 +30,10 @@
         display: none;
     }
 
+    .btn {
+        max-width: 322px;
+    }
+
     .primeira__mensagem {
         margin-top: 0;
     }
