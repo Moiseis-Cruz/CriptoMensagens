@@ -19,6 +19,6 @@ Também usei o mesmo método para realizar a tranformação dos caracteres para 
 <br>
 
 
-[<img src="./assets/encriptador-texto.gif">](https://decodificador-texto-beta.vercel.app/)
+[<img src="./assets/CriptoMensagens.gif">](https://decodificador-texto-beta.vercel.app/)
 
 <small>Para visitar o <i>site</i> (live) clique no gif.</small>
